@@ -2,14 +2,14 @@
 
 `content-unavailable-swiftui` is a SwiftUI component designed to provide a user-friendly view for scenarios where content is unavailable. This component is useful for displaying placeholder messages or empty states within your app.
 
-## Features
+## ✨ Features
 
 - **Customizable Image:** Optionally include a system image to visually indicate the unavailable content.
 - **Title Text:** Prominently display a title to convey the main message.
 - **Description Text:** Optionally add a description for additional context or instructions.
 - **Responsive Layout:** Adapts layout and text scaling for a consistent appearance across various devices.
 
-## Installation
+## 🛠️ Installation
 
 To use `ContentUnavailableSwiftUI` in your SwiftUI project, follow these steps:
 
@@ -28,7 +28,7 @@ To use `ContentUnavailableSwiftUI` in your SwiftUI project, follow these steps:
    import ContentUnavailableSwiftUI
    ```
 
-## Usage
+## 📖 Usage
 You can initialize and use iContentUnavailableView with the following parameters:
 
 - **systemImageName:** A string representing the name of a system image (optional).
@@ -52,8 +52,8 @@ struct ContentView: View {
 }
 ```
 
-## License
-This component is open-source and available under the MIT License. See the [LICENSE](https://github.com/KDTechniques/content-unavailable-swiftui/blob/main/LICENSE) file for more details.
-
-## Contributing
+## 🤝 Contribution
 Contributions are welcome! Please open an issue or submit a pull request if you have suggestions or improvements.
+
+## 📜 License
+This component is open-source and available under the MIT License. See the [LICENSE](https://github.com/KDTechniques/content-unavailable-swiftui/blob/main/LICENSE) file for more details.

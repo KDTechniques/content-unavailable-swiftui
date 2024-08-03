@@ -5,17 +5,16 @@ import PackageDescription
 
 let package = Package(
     name: "content-unavailable-swiftui",
+    platforms: [.iOS(.v15)],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "content-unavailable-swiftui",
-            targets: ["content-unavailable-swiftui"]),
+            name: "ContentUnavailableSwiftUI",
+            targets: ["ContentUnavailableSwiftUI"]),
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "content-unavailable-swiftui"),
-
+            name: "ContentUnavailableSwiftUI",
+            path: "Sources/Content Unavailable"
+        ),
     ]
 )
